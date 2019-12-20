@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MsgPackAblyFork"
-  s.version          = "0.2.0-ably-1"
+  s.version          = "0.2.0-ably-2"
   s.summary          = "Latest msgpack source, with objective-C  wrapper. Unit tested."
   s.description      = <<-DESC
 			Msgpack for objective-C
