@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D729A01521944A7100D8260F"
-               BuildableName = "msgpack.framework"
+               BuildableName = "MsgPackAblyFork.framework"
                BlueprintName = "msgpack-watchOS"
                ReferencedContainer = "container:msgpack.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D729A01521944A7100D8260F"
-            BuildableName = "msgpack.framework"
+            BuildableName = "MsgPackAblyFork.framework"
             BlueprintName = "msgpack-watchOS"
             ReferencedContainer = "container:msgpack.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D729A01521944A7100D8260F"
-            BuildableName = "msgpack.framework"
+            BuildableName = "MsgPackAblyFork.framework"
             BlueprintName = "msgpack-watchOS"
             ReferencedContainer = "container:msgpack.xcodeproj">
          </BuildableReference>

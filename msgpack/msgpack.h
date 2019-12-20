@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 
 //! Project version number for msgpack.
-FOUNDATION_EXPORT double msgpackVersionNumber;
+FOUNDATION_EXPORT double MsgPackAblyForkVersionNumber;
 
 //! Project version string for msgpack.
-FOUNDATION_EXPORT const unsigned char msgpackVersionString[];
+FOUNDATION_EXPORT const unsigned char MsgPackAblyForkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <msgpack/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <MsgPackAblyFork/PublicHeader.h>
 
 #import "MessagePack.h"

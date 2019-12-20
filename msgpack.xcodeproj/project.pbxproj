@@ -170,10 +170,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7299FFC21944A3700D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D729A00921944A5B00D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D729A01621944A7100D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D736A0B61F90F760005ABE81 /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7299FFC21944A3700D8260F /* MsgPackAblyFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MsgPackAblyFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729A00921944A5B00D8260F /* MsgPackAblyFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MsgPackAblyFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729A01621944A7100D8260F /* MsgPackAblyFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MsgPackAblyFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D736A0B61F90F760005ABE81 /* MsgPackAblyFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MsgPackAblyFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736A0B91F90F760005ABE81 /* msgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = msgpack.h; path = msgpack/msgpack.h; sourceTree = "<group>"; };
 		D736A0BA1F90F760005ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = msgpack/Info.plist; sourceTree = "<group>"; };
 		D736A0D21F917097005ABE81 /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePack.h; path = Pod/Classes/MessagePack.h; sourceTree = "<group>"; };
@@ -263,10 +263,10 @@
 		D736A0B71F90F760005ABE81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D736A0B61F90F760005ABE81 /* msgpack.framework */,
-				D7299FFC21944A3700D8260F /* msgpack.framework */,
-				D729A00921944A5B00D8260F /* msgpack.framework */,
-				D729A01621944A7100D8260F /* msgpack.framework */,
+				D736A0B61F90F760005ABE81 /* MsgPackAblyFork.framework */,
+				D7299FFC21944A3700D8260F /* MsgPackAblyFork.framework */,
+				D729A00921944A5B00D8260F /* MsgPackAblyFork.framework */,
+				D729A01621944A7100D8260F /* MsgPackAblyFork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -477,7 +477,7 @@
 			);
 			name = "msgpack-macOS";
 			productName = "msgpack-macOS";
-			productReference = D7299FFC21944A3700D8260F /* msgpack.framework */;
+			productReference = D7299FFC21944A3700D8260F /* MsgPackAblyFork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D729A00821944A5B00D8260F /* msgpack-tvOS */ = {
@@ -495,7 +495,7 @@
 			);
 			name = "msgpack-tvOS";
 			productName = "msgpack-tvOS";
-			productReference = D729A00921944A5B00D8260F /* msgpack.framework */;
+			productReference = D729A00921944A5B00D8260F /* MsgPackAblyFork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D729A01521944A7100D8260F /* msgpack-watchOS */ = {
@@ -513,7 +513,7 @@
 			);
 			name = "msgpack-watchOS";
 			productName = "msgpack-watchOS";
-			productReference = D729A01621944A7100D8260F /* msgpack.framework */;
+			productReference = D729A01621944A7100D8260F /* MsgPackAblyFork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D736A0B51F90F760005ABE81 /* msgpack-iOS */ = {
@@ -531,7 +531,7 @@
 			);
 			name = "msgpack-iOS";
 			productName = msgpack;
-			productReference = D736A0B61F90F760005ABE81 /* msgpack.framework */;
+			productReference = D736A0B61F90F760005ABE81 /* MsgPackAblyFork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -730,7 +730,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-macOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -765,7 +765,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-macOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -799,7 +799,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-tvOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -834,7 +834,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-tvOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -870,7 +870,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-watchOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -905,7 +905,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-watchOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1044,7 +1044,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-iOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1062,7 +1062,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-iOS";
-				PRODUCT_NAME = msgpack;
+				PRODUCT_NAME = MsgPackAblyFork;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
