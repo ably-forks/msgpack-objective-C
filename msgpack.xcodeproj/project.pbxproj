@@ -34,9 +34,9 @@
 		D729A036219453AF00D8260F /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
 		D729A037219453B000D8260F /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
 		D729A038219453B100D8260F /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
-		D729A039219453B700D8260F /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
-		D729A03A219453B800D8260F /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
-		D729A03B219453B800D8260F /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
+		D729A039219453B700D8260F /* version_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_constants.h */; };
+		D729A03A219453B800D8260F /* version_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_constants.h */; };
+		D729A03B219453B800D8260F /* version_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_constants.h */; };
 		D729A03C219453BD00D8260F /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
 		D729A03D219453BE00D8260F /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
 		D729A03E219453BF00D8260F /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
@@ -162,7 +162,7 @@
 		D736A11A1F917112005ABE81 /* unpack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10C1F917112005ABE81 /* unpack_define.h */; };
 		D736A11B1F917112005ABE81 /* unpack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10D1F917112005ABE81 /* unpack_template.h */; };
 		D736A11C1F917112005ABE81 /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
-		D736A11D1F917112005ABE81 /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
+		D736A11D1F917112005ABE81 /* version_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_constants.h */; };
 		D736A11E1F917112005ABE81 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
 		D736A11F1F917112005ABE81 /* vrefbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1111F917112005ABE81 /* vrefbuffer.h */; };
 		D736A1201F917112005ABE81 /* zbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1121F917112005ABE81 /* zbuffer.h */; };
@@ -210,7 +210,7 @@
 		D736A10C1F917112005ABE81 /* unpack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unpack_define.h; path = Pod/Classes/msgpack_src/msgpack/unpack_define.h; sourceTree = "<group>"; };
 		D736A10D1F917112005ABE81 /* unpack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unpack_template.h; path = Pod/Classes/msgpack_src/msgpack/unpack_template.h; sourceTree = "<group>"; };
 		D736A10E1F917112005ABE81 /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unpack.h; path = Pod/Classes/msgpack_src/msgpack/unpack.h; sourceTree = "<group>"; };
-		D736A10F1F917112005ABE81 /* version_master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version_master.h; path = Pod/Classes/msgpack_src/msgpack/version_master.h; sourceTree = "<group>"; };
+		D736A10F1F917112005ABE81 /* version_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version_constants.h; path = Pod/Classes/msgpack_src/msgpack/version_constants.h; sourceTree = "<group>"; };
 		D736A1101F917112005ABE81 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = Pod/Classes/msgpack_src/msgpack/version.h; sourceTree = "<group>"; };
 		D736A1111F917112005ABE81 /* vrefbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vrefbuffer.h; path = Pod/Classes/msgpack_src/msgpack/vrefbuffer.h; sourceTree = "<group>"; };
 		D736A1121F917112005ABE81 /* zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zbuffer.h; path = Pod/Classes/msgpack_src/msgpack/zbuffer.h; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 				D736A10C1F917112005ABE81 /* unpack_define.h */,
 				D736A10D1F917112005ABE81 /* unpack_template.h */,
 				D736A10E1F917112005ABE81 /* unpack.h */,
-				D736A10F1F917112005ABE81 /* version_master.h */,
+				D736A10F1F917112005ABE81 /* version_constants.h */,
 				D736A1101F917112005ABE81 /* version.h */,
 				D736A1111F917112005ABE81 /* vrefbuffer.h */,
 				D736A1121F917112005ABE81 /* zbuffer.h */,
@@ -352,7 +352,7 @@
 				D729A0632194541900D8260F /* NSData+MessagePack.h in Headers */,
 				D729A03C219453BD00D8260F /* version.h in Headers */,
 				D729A02A2194534400D8260F /* sbuffer.h in Headers */,
-				D729A039219453B700D8260F /* version_master.h in Headers */,
+				D729A039219453B700D8260F /* version_constants.h in Headers */,
 				D729A02D2194534A00D8260F /* sysdep.h in Headers */,
 				D729A0272194533F00D8260F /* pack.h in Headers */,
 				D729A045219453CF00D8260F /* zone.h in Headers */,
@@ -385,7 +385,7 @@
 				D729A0762194541A00D8260F /* NSData+MessagePack.h in Headers */,
 				D729A03D219453BE00D8260F /* version.h in Headers */,
 				D729A02B2194534500D8260F /* sbuffer.h in Headers */,
-				D729A03A219453B800D8260F /* version_master.h in Headers */,
+				D729A03A219453B800D8260F /* version_constants.h in Headers */,
 				D729A02E2194534B00D8260F /* sysdep.h in Headers */,
 				D729A0282194533F00D8260F /* pack.h in Headers */,
 				D729A046219453D000D8260F /* zone.h in Headers */,
@@ -418,7 +418,7 @@
 				D729A0892194541C00D8260F /* NSData+MessagePack.h in Headers */,
 				D729A03E219453BF00D8260F /* version.h in Headers */,
 				D729A02C2194534600D8260F /* sbuffer.h in Headers */,
-				D729A03B219453B800D8260F /* version_master.h in Headers */,
+				D729A03B219453B800D8260F /* version_constants.h in Headers */,
 				D729A02F2194534C00D8260F /* sysdep.h in Headers */,
 				D729A0292194534000D8260F /* pack.h in Headers */,
 				D729A047219453D100D8260F /* zone.h in Headers */,
@@ -446,7 +446,7 @@
 				D736A1181F917112005ABE81 /* sbuffer.h in Headers */,
 				D736A0BB1F90F760005ABE81 /* msgpack.h in Headers */,
 				D736A11A1F917112005ABE81 /* unpack_define.h in Headers */,
-				D736A11D1F917112005ABE81 /* version_master.h in Headers */,
+				D736A11D1F917112005ABE81 /* version_constants.h in Headers */,
 				D736A0FF1F9170D7005ABE81 /* msgpack.h in Headers */,
 				D736A1151F917112005ABE81 /* pack_define.h in Headers */,
 				D736A11C1F917112005ABE81 /* unpack.h in Headers */,

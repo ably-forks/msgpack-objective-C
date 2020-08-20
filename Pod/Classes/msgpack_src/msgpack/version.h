@@ -27,7 +27,7 @@ const char* msgpack_version(void);
 int msgpack_version_major(void);
 int msgpack_version_minor(void);
 
-#include "version_master.h"
+#include "version_constants.h"
 
 #define MSGPACK_STR(v) #v
 #define MSGPACK_VERSION_I(maj, min, rel) MSGPACK_STR(maj) "." MSGPACK_STR(min) "." MSGPACK_STR(rel)
